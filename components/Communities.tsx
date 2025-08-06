@@ -126,6 +126,7 @@ const Communities = () => {
                         fill
                         priority
                         className="object-contain"
+                        loading="eager"
                       />
                     </div>
                   </section>
