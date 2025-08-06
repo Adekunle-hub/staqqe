@@ -62,7 +62,7 @@ const Hero = () => {
               src="/mobileHero.png"
               alt="staqqe"
               height={180}
-              width={320}
+              width={400}
               quality={100}
             />
           </div>
