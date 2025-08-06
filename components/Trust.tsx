@@ -53,10 +53,10 @@ const Trust = () => {
             {steps.map((step) => (
               <section
                 key={step.id}
-                className="flex flex-col mt-[2.5rem] gap-[.4rem] items-center justify-center min-w-[250px] md:min-w-0 snap-start"
+                className="flex flex-col hide-scrollbar mt-[2.5rem] gap-[.4rem] items-center justify-center min-w-[250px] md:min-w-0 snap-start"
               >
                 <Image width={30} height={30} alt={step.main} src={step.icon} />
-                <div className="w-full h-[140px] text-center md:h-full flex border-[2px] border-gray-200 rounded-lg bg-white shadow-sm flex-col p-4">
+                <div className="w-full !h-[12rem] items-stretch text-center md:h-full flex border-[2px] border-gray-200 rounded-lg bg-white shadow-sm flex-col p-4">
                   <div className="pb-2">
                     <h2 className="text-primary text-[1rem] mb-0 pb-0 font-semibold">
                       {step.step}

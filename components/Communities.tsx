@@ -91,7 +91,7 @@ const Communities = () => {
           
         </p>
         <main className="flex  w-[100%] overflow-hidden  ">
-          <div className="marquee w-max  flex gap-[1rem] items-center justify-center mt-[1rem] md:mt-[3rem]">
+          <div className="marquee w-max flex gap-[1rem] items-center justify-center mt-[1rem] md:mt-[3rem]">
             {[...communityTestimonials, ...communityTestimonials].map(
               (testimonial, index) => (
                 <div
@@ -129,7 +129,7 @@ const Communities = () => {
                       />
                     </div>
                   </section>
-                  <section className="flex h-[20px]md:h-[25px]   items-center justify-between">
+                  <section className="flex h-[20px] md:h-[25px]   items-center justify-between">
                     <Image src="/star.png" alt="stars" width={70} height={50} />
                     <Image
                       src="/social media.png"
