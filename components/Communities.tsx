@@ -86,8 +86,9 @@ const Communities = () => {
           Everywhere
         </h1>
         <p className="text-center  text-[13px] text-[#111211]">
-          See how groups across Nigeria are transforming their savings with
-          staqqe's secure platform.
+          {`See how groups across Nigeria are transforming their savings with
+          staqqe's secure platform.`}
+          
         </p>
         <main className="flex  w-[100%] overflow-hidden  ">
           <div className="marquee w-max  flex gap-[1rem] items-center justify-center mt-[1rem] md:mt-[3rem]">

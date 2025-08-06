@@ -11,9 +11,9 @@ const Transform = () => {
           Ready to Transform Your Group Savings?
         </h1>
         <p className="text-center my-[1rem] md:mb-[3rem] md:mt-[1.5rem] text-white text-[13px]">
-          Join thousands of groups who've already secured their contributions
+          {`Join thousands of groups who've already secured their contributions
           with staqqe. Get started today and experience the future of community
-          savings.
+          savings.`}
         </p>
         <div className="flex items-center justify-center gap-4">
           <Button className="bg-white border-1 hover:bg-white/80 cursor-pointer border-[#F9FAFB] text-[#080CD4] font-bold text-[.8rem]">
