@@ -126,17 +126,18 @@ const Communities = () => {
                         fill
                         priority
                         className="object-contain"
-                        loading="eager"
+                       
                       />
                     </div>
                   </section>
                   <section className="flex h-[20px] md:h-[25px]   items-center justify-between">
-                    <Image src="/star.png" alt="stars" width={70} height={50} />
+                    <Image src="/star.png" alt="stars" width={70}  loading="eager" height={50} />
                     <Image
                       src="/social media.png"
                       alt="social media"
                       width={90}
                       height={90}
+                       loading="eager"
                     />
                   </section>
                   <p className="md:text-[15px] text-[10px] text-[#4F545B] my-[2px] md:my-[1rem]">
