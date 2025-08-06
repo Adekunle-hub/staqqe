@@ -13,7 +13,7 @@ import { Arrow } from "./common/icons";
 const Pricing = () => {
   const plans = [
     {
-      icon: "/icons_circle.png",
+      icon: "/Icons_circle.png",
       title: "Starter",
       description: "Perfect for small groups just getting started",
       price: "Free",
@@ -28,7 +28,7 @@ const Pricing = () => {
       button: "Get Started",
     },
     {
-      icon: "/icons_circle(1).png",
+      icon: "/Icons_circle(1).png",
       title: "Professional",
       description: "Advanced features for growing communities",
       price: "₦2,500",
@@ -45,7 +45,7 @@ const Pricing = () => {
       button: "Get Started",
     },
     {
-      icon: "/icons_circle(2).png",
+      icon: "/Icons_circle(2).png",
       title: "Enterprise",
       description: "Perfect for large organizations with custom needs",
       price: "Custom",
