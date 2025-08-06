@@ -1,0 +1,43 @@
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 40s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+.marquee > div {
+  flex-shrink: 0;
+  will-change: transform;
+}
+
+
+img[data-nimg] {
+  display: block !important;
+  max-width: none !important;
+}
+
+
+.slideLeft {
+  animation: slideInLeft 5s ease-out forwards;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+@keyframes slideInLeft {
+  0% {
+    clip-path: polygon(0 0, 0% 0, 0% 100%, 0 100%); /* Left edge only */
+  }
+  100% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Full image */
+  }
+}
