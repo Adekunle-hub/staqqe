@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { CiMenuFries, CiMenuBurger } from "react-icons/ci";
+import { CiMenuBurger } from "react-icons/ci";
 import { MdClose } from "react-icons/md";
 import { Button } from "./ui/button";
 

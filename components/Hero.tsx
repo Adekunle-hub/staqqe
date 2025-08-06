@@ -1,5 +1,5 @@
 import MaxContainer from "@/components/common/MaxWidth";
-import DesktopHeader from "@/components/DesktopHeader";
+
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
