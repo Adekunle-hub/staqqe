@@ -36,7 +36,7 @@ const Trust = () => {
 
   return (
     <fieldset className="bg-[#EFF6FF] w-full">
-      <section className="md:w-[85%]  w-[90%] mx-auto py-[1rem] md:py-[3rem]">
+      <section className="md:w-[85%]  w-full px-[1.2rem] md:px-0 mx-auto py-[1rem] md:py-[3rem]">
         <div className="text-center">
           <h1 className="lg:text-[1.8rem]  text-[1.3rem]  font-semibold">
             Built for <span className="text-primary">Trust</span> &{" "}

@@ -42,7 +42,7 @@ const Work = () => {
   ];
   return (
     <section className="bg-white w-full py-[1rem] md:py-[2rem] lg:pt-[4rem] lg:pb-[2rem]">
-      <div className="w-[85%] mx-auto">
+      <div className="md:w-[85%] w-full px-[1.2rem] md:px-0 mx-auto">
         <h1 className="text-center font-semibold text-[1.4rem] ">
           How <span className="text-primary">staqqe </span> Work
         </h1>

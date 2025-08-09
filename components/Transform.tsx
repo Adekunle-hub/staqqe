@@ -6,7 +6,7 @@ const Transform = () => {
   const benefits = ["No Setup Fees", "30-Day Free Trial", "Cancel Anytime"];
   return (
     <section className="bg-[#202279] py-[1rem] md:py-[3rem]">
-      <main className="md:w-[50%] w-[90%] mx-auto">
+      <main className="md:w-[50%] w-full px-[1.2rem] md:px-0 mx-auto">
         <h1 className="text-center leading-8 md:leading-15 text-[1.5rem] md:text-[3rem] font-bold text-white">
           Ready to Transform Your Group Savings?
         </h1>

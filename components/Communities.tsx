@@ -80,7 +80,7 @@ const Communities = () => {
 
   return (
     <section className="bg-[#EFF6FF] py-[1rem] md:py-[2.5rem]">
-      <div className="w-[90%] mx-auto">
+      <div className="w-full px-[1.2rem] md:px-0 md:w-[90%] mx-auto">
         <h1 className="text-center md:px-[3rem] mx-auto font-bold text-[1.5rem]">
           Trusted by <span className="text-primary">Communities </span>{" "}
           Everywhere

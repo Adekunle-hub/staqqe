@@ -45,7 +45,7 @@ const Footer = () => {
   const companyFeatures = ["About Us", "Careers", "Press", "Blog", "Contact"];
   return (
     <footer className="bg-[#1F2937]  py-[1rem] md:py-[3rem]">
-      <main className="lg:w-[85%] w-[90%]  text-[#FFFFFF] flex justify-between pr-0 lg:pr-[5rem] mx-auto">
+      <main className="lg:w-[85%] w-full px-[1.2rem] md:px-0 text-[#FFFFFF] flex justify-between pr-0 lg:pr-[5rem] mx-auto">
         <section className="max-w-[50%]  w-[40%] flex flex-col ">
           <h4 className="md:text-[1.5rem] mb-[.7rem] text-[1rem] ">Staqqe</h4>
           <p className=" text-[11px] md:text-[13px]  ">

@@ -65,7 +65,7 @@ const Pricing = () => {
 
   return (
     <section className="bg-[#F9FAFB] md:py-[2.5rem] py-[1rem]">
-      <div className="md:w-[85%] w-[90%] mx-auto">
+      <div className="md:w-[85%] w-full px-[1.2rem] md:px-0 mx-auto">
         <h3 className="capitalize md:text-[1.5rem]  text-[1.8rem] font-semibold text-center  ">
           simple, <span className="text-primary">transparent</span> pricing
         </h3>

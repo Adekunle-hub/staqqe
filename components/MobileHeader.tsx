@@ -12,7 +12,7 @@ const MobileHeader = () => {
   };
   return (
     <section className=" py-[1rem] bg-[#F9FAFB]  md:py-[1rem]">
-      <nav className="w-[90%]   md:bg-[#FFFFFF] justify-between  flex  items-center mx-auto">
+      <nav className="w-full px-[1.2rem]   md:bg-[#FFFFFF] justify-between  flex  items-center ">
         <div className="flex w-[50%]  items-center gap-3 ">
           {menu ? (
             <MdClose
@@ -37,7 +37,7 @@ const MobileHeader = () => {
               {item}
             </a>
           ))}
-          <Button className="w-[3rem] cursor-pointer font-semibold text-[13px] h-[1.5rem] px-[2rem] py-[.5rem] text-xs leading-none">
+          <Button className="w-[3rem] cursor-pointer font-semibold text-[15px]  h-[1.5rem] px-[2rem] py-[.8rem] leading-none">
             Sign in
           </Button>
         </div>

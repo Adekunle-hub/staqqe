@@ -39,7 +39,7 @@ const Security = () => {
   ];
   return (
     <section className="bg-[#ffffff] lg:[#ffffff] md:bg-[#F9FAFB] py-[1rem] md:py-[3rem]">
-      <article className="w-[90%] md:w-[85%] flex flex-col gap-[1rem] md:gap-[2rem] items-center  mx-auto">
+      <article className="w-full px-[1.2rem] md:px-0 md:w-[85%] flex flex-col gap-[1rem] md:gap-[2rem] items-center  mx-auto">
         <div className="text-center">
           <h1 className="text-[1.4rem] font-bold capitalize">
             {" "}
