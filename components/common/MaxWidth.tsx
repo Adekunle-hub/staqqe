@@ -10,7 +10,7 @@ const MaxContainer = ({
 }) => {
   return (
     <div
-    className={cn("max-w-[1290px] mx-auto w-full", className)}
+    className={cn("max-w-[1290px] mx-auto overflow-hidden w-[100vw]", className)}
     >
         {children}
 

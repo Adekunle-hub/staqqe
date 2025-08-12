@@ -8,7 +8,7 @@ import { Arrow } from "@/components/common/icons";
 const Hero = () => {
   return (
     <MaxContainer>
-      <main className="flex flex-col md:flex-row md:items-end items-start justify-center w-full px-[1.2rem] md:w-[90%] mx-auto">
+      <main className="flex flex-col md:flex-row md:items-end items-start justify-center w-full px-[1.2rem] md:w-[90%] overflow-hidden mx-auto">
         <section className="w-full md:w-[45%] px-[1.2rem] md:px-0 order-2 md:order-1 mb-[2rem] gap-y-[1.3rem] md:gap-y-[3rem]  flex flex-col md:justify-between">
           <div className="mt-[1rem] md:mt-0">
             <h1 className="md:text-[3rem] text-[2.3rem] text-[#1F2937] leading-10 capitalize font-bold">
@@ -47,7 +47,7 @@ const Hero = () => {
             />
           </div>
         </section>
-        <div className="order-1 ">
+        <div className="order-1 overflow-hidden ">
           <Image
             src="/staqqe-hero.png"
             alt="staqqe"
