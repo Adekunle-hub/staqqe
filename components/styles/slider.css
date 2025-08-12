@@ -20,10 +20,6 @@
 }
 
 
-img[data-nimg] {
-  display: block !important;
-  max-width: none !important;
-}
 
 
 .slideLeft {

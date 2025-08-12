@@ -25,7 +25,7 @@ const Hero = () => {
           <div className="flex gap-4">
             <Button className="bg-[#080CD4] transition-colors duration-300 ease-in-out  cursor-pointer hover:bg-[#080CD4]/80 py-[4px] px-[6px] flex items-center text-white text-[1rem]">
               Start your Group
-              <Arrow  />
+              <Arrow />
             </Button>
             <Button className="bg-white text-[#080CD4] hover:bg-white/40 transition-colors duration-300 ease-in-out py-[4px] px-[6px] cursor-pointer text-[1rem] border-1 border-[#080CD4]">
               {" "}
@@ -47,26 +47,27 @@ const Hero = () => {
             />
           </div>
         </section>
-        <section className="order-1 bg-red-900">
-          <div className="w-[] hidden lg:block">
-            <Image
-              src="/staqqe-hero.png"
-              alt="staqqe"
-              height={700}
-              width={680}
-              quality={100}
-            />
-          </div>
-         
-            <Image
-              src="/mobileHero.png"
-              alt="staqqe"
-              height={180}
-              width={330}
-              quality={100}
-              className="block lg:hidden"
-    />
-        </section>
+        <div className="order-1 ">
+          <Image
+            src="/staqqe-hero.png"
+            alt="staqqe"
+            height={700}
+            width={680}
+            quality={100}
+            priority
+            className="hidden lg:block"
+          />
+
+          <Image
+            src="/mobileHero.png"
+            alt="staqqe"
+            height={180}
+            width={330}
+            quality={100}
+            className="block lg:hidden"
+            priority
+          />
+        </div>
       </main>
     </MaxContainer>
   );
