@@ -29,7 +29,7 @@ const MobileHeader = () => {
               className="text-gray-900 mt-1 stroke-2 scale-100 opacity-100 transition-all lg:hidden duration-300"
             />
           )}
-          <h1 className="text-primary font-bold text-[1.2rem]">staqqe</h1>
+          <h1 className="text-primary font-bold text-[1.6rem]">staqqe</h1>
         </div>
         <div className="flex gap-2 justify-end w-full items-center">
           {navList.map((item, index) => (
@@ -37,7 +37,7 @@ const MobileHeader = () => {
               {item}
             </a>
           ))}
-          <Button className="w-[3rem] cursor-pointer font-semibold text-[15px]  h-[1.5rem] px-[2rem] py-[.8rem] leading-none">
+          <Button className=" cursor-pointer font-normal text-[16px] scale-[0.8] leading-none">
             Sign in
           </Button>
         </div>

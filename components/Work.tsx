@@ -46,7 +46,7 @@ const Work = () => {
         <h1 className="text-center font-semibold text-[1.4rem] ">
           How <span className="text-primary">staqqe </span> Work
         </h1>
-        <p className="text-center mt-[3px]  text-[12px] px-[1rem] text-[#111211]">
+        <p className="text-center mt-[3px]  text-[15px] px-[1rem] text-[#111211]">
           Every feature is designed to protect your funds while giving your
           group complete control and transparency.
         </p>
@@ -66,10 +66,10 @@ const Work = () => {
                   className="object-contain "
                 />
                 
-                <h3 className="font-bold text-[.9rem] lg:text-[1.1rem] ">
+                <h3 className="font-bold text-[1.1rem] ">
                   {feature.main}
                 </h3>
-                <p className="lg:text-[13px] m-0 p-0 text-[11px]">{feature.text}</p>
+                <p className="lg:text-[13px] m-0 p-0 text-[15px]">{feature.text}</p>
               </article>
             ))}
           </div>

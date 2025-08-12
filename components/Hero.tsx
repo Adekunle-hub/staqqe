@@ -16,18 +16,18 @@ const Hero = () => {
               <span className="text-[#080CD4]">Contributions</span> <br /> made
               simple
             </h1>
-            <p className="md:mt-[2rem] w-[90%] sm:w-[70%] md:w-full mt-[.7rem] text-[#5A5F66] text-[15px]">
+            <p className="md:mt-[2rem] w-[90%] sm:w-[70%] md:w-full mt-[.7rem] text-[#5A5F66] text-[16px]">
               Transform your community savings with transparent, fraud-proof
               digital contributions. Built for groups who demand security,
               accountability, and complete control over their funds.
             </p>
           </div>
-          <div className="flex  gap-4">
-            <Button className="bg-[#080CD4] transition-colors duration-300 ease-in-out  cursor-pointer hover:bg-[#080CD4]/80 flex items-center text-white text-[1rem]">
+          <div className="flex gap-4">
+            <Button className="bg-[#080CD4] transition-colors duration-300 ease-in-out  cursor-pointer hover:bg-[#080CD4]/80 py-[4px] px-[6px] flex items-center text-white text-[1rem]">
               Start your Group
-              <Arrow />
+              <Arrow  />
             </Button>
-            <Button className="bg-white text-[#080CD4] hover:bg-white/40 transition-colors duration-300 ease-in-out cursor-pointer text-[1rem] border-1 border-[#080CD4]">
+            <Button className="bg-white text-[#080CD4] hover:bg-white/40 transition-colors duration-300 ease-in-out py-[4px] px-[6px] cursor-pointer text-[1rem] border-1 border-[#080CD4]">
               {" "}
               Watch Demo
             </Button>
@@ -62,7 +62,7 @@ const Hero = () => {
               src="/mobileHero.png"
               alt="staqqe"
               height={180}
-              width={400}
+              width={330}
               quality={100}
             />
           </div>

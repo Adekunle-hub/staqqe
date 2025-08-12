@@ -42,7 +42,7 @@ const Trust = () => {
             Built for <span className="text-primary">Trust</span> &{" "}
             <span className="text-primary">Security</span>
           </h1>
-          <p className="text-center  mb-[1rem] text-[12px] md:text-[14px]  mx-auto mt-2">
+          <p className="text-center  mb-[1rem] text-[15px]  mx-auto mt-2">
             Get started in minutes with our simple 4-step process designed for
             any group size or contribution goal.
           </p>
@@ -90,17 +90,17 @@ const Trust = () => {
                       alt={step.main}
                       src={step.icon}
                     />
-                    <div className="w-full h-[11rem] text-center  flex border-[2px] border-gray-200 rounded-lg bg-white shadow-sm flex-col px-2 py-4">
+                    <div className="w-full h-[13rem] text-center  flex border-[2px] border-gray-200 rounded-lg bg-white shadow-sm flex-col px-2 py-4">
                       <div className="pb-2">
                         <h2 className="text-primary text-[1rem] font-semibold">
                           {step.step}
                         </h2>
                       </div>
                       <div className="flex flex-col gap-2 flex-1">
-                        <h3 className="font-bold text-[15px] text-[#1F2937] capitalize">
+                        <h3 className="font-bold text-[16px] text-[#1F2937] capitalize">
                           {step.main}
                         </h3>
-                        <p className="text-[12px] text-[#1F2937]  leading-relaxed break-words">
+                        <p className="text-[14px] text-[#1F2937]  leading-relaxed break-words">
                           {step.text}
                         </p>
                       </div>

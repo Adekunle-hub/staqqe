@@ -45,7 +45,7 @@ const Security = () => {
             {" "}
             <span className="text-primary">Security</span> you can trust
           </h1>
-          <p className=" text-[12px] md:text-[13px]">
+          <p className=" text-[14px] md:text-[15px]">
             Your funds are protected by multiple layers of security, giving you
             peace of mind while maintaining full control.
           </p>
@@ -70,7 +70,7 @@ const Security = () => {
         </main>
         <div className="flex flex-col py-[5px] md:py-[1rem] rounded-[1rem] items-center text-white w-full bg-primary">
             <h3 className="md:text-[1.3rem] text-[1rem] font-bold">Future-Proof with blockchain</h3>
-            <p className="md:text-[13px] mt-2 text-[11px] text-center">{`We're developing smart contract integration for ultimate transparency and decentralized fund management.`}</p>
+            <p className="text-[13px] mt-2  text-center">{`We're developing smart contract integration for ultimate transparency and decentralized fund management.`}</p>
             <Button className="bg-white mt-[1rem] cursor-pointer hover:bg-[white]/90 px-[1rem] text-black">
                 Learn  More About Our Roadmap
             </Button>
