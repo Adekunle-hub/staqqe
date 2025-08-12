@@ -37,7 +37,7 @@ const MobileHeader = () => {
               {item}
             </a>
           ))}
-          <Button className=" cursor-pointer font-normal text-[16px] scale-[0.8] leading-none">
+          <Button className=" cursor-pointer font-semibold text-[16px] scale-[0.8] leading-none">
             Sign in
           </Button>
         </div>

@@ -3,7 +3,7 @@ export const Arrow = ({ bgColor = "transparent", iconColor = "white", size = 24 
     style={{
       backgroundColor: bgColor,
       display: "inline-flex",
-      padding: "4px",
+  
      
     }}
   >
