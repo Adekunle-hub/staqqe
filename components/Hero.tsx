@@ -47,7 +47,7 @@ const Hero = () => {
             />
           </div>
         </section>
-        <section className="order-1">
+        <section className="order-1 bg-red-900">
           <div className="w-[] hidden lg:block">
             <Image
               src="/staqqe-hero.png"
@@ -57,15 +57,15 @@ const Hero = () => {
               quality={100}
             />
           </div>
-          <div className="w-[] block lg:hidden">
+         
             <Image
               src="/mobileHero.png"
               alt="staqqe"
               height={180}
               width={330}
               quality={100}
-            />
-          </div>
+              className="block lg:hidden"
+    />
         </section>
       </main>
     </MaxContainer>
