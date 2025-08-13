@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <MaxContainer>
       <main className="flex flex-col md:flex-row md:items-end items-start justify-center w-full px-[1.2rem] md:w-[90%] overflow-hidden mx-auto">
-        <section className="w-full md:w-[45%] px-[1.2rem] md:px-0 order-2 md:order-1 mb-[2rem] gap-y-[1.3rem] md:gap-y-[3rem]  flex flex-col md:justify-between">
+        <section className="w-full md:w-[45%]  px[.8rem] md:px-0 order-2 md:order-1 mb-[2rem] gap-y-[1.3rem] md:gap-y-[3rem]  flex flex-col md:justify-between">
           <div className="mt-[1rem] md:mt-0">
             <h1 className="md:text-[3rem] text-[2.3rem] text-[#1F2937] leading-10 capitalize font-bold">
               Secure Group <br />{" "}
@@ -48,6 +48,18 @@ const Hero = () => {
           </div>
         </section>
         <div className="order-1 w-full relative md:w-[55%] overflow-hidden  ">
+          <div className="block lg:hidden w-full">
+            <Image
+              src="/mobileHero.png"
+              alt="staqqe"
+              width={330}
+              height={180}
+              quality={100}
+              priority
+              className="w-full h-auto object-contain"
+              sizes="(max-width:1024px) 100vw"
+            />
+          </div>
           <div className="hidden lg:block relative w-full">
             <Image
               src="/staqqe-hero.png"
@@ -58,19 +70,6 @@ const Hero = () => {
               priority
               className="object-contain object-bottom"
               sizes="(min-width:1024px) 50vw, 0px"
-            />
-          </div>
-
-          <div className="lg:hidden relative w-full ">
-            <Image
-              src="/mobileHero.png"
-              alt="staqqe"
-              width={0}
-              height={0}
-              quality={100}
-              className="object-contain w-full h-auto"
-              priority
-              sizes="(max-width:1023px) 100vw, 0px"
             />
           </div>
         </div>
