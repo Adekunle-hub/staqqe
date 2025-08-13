@@ -47,26 +47,32 @@ const Hero = () => {
             />
           </div>
         </section>
-        <div className="order-1 overflow-hidden ">
-          <Image
-            src="/staqqe-hero.png"
-            alt="staqqe"
-            height={700}
-            width={680}
-            quality={100}
-            priority
-            className="hidden lg:block"
-          />
+        <div className="order-1 w-full relative md:w-[55%] overflow-hidden  ">
+          <div className="hidden lg:block relative w-full">
+            <Image
+              src="/staqqe-hero.png"
+              alt="staqqe"
+              height={700}
+              width={680}
+              quality={100}
+              priority
+              className="object-contain object-bottom"
+              sizes="(min-width:1024px) 50vw, 0px"
+            />
+          </div>
 
-          <Image
-            src="/mobileHero.png"
-            alt="staqqe"
-            height={180}
-            width={330}
-            quality={100}
-            className="block lg:hidden"
-            priority
-          />
+          <div className="lg:hidden relative w-full ">
+            <Image
+              src="/mobileHero.png"
+              alt="staqqe"
+              width={0}
+              height={0}
+              quality={100}
+              className="object-contain w-full h-auto"
+              priority
+              sizes="(max-width:1023px) 100vw, 0px"
+            />
+          </div>
         </div>
       </main>
     </MaxContainer>
